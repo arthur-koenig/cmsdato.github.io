@@ -155,11 +155,11 @@ layout: homepage
 
         <div class="well well-homepage">
             
-              <a href="{{site.baseurl}}/{{post.url}}"><img class=" img-responsive {{post.customclass}}" src="{{ post.hero }}"></a>
+              <a href="{{site.baseurl}}{{post.url}}"><img class=" img-responsive {{post.customclass}}" src="{{ post.hero }}"></a>
        
         <p class="lead">
           <b>{{post.title}}</b><br>
-          {{post.extrait | truncatewords: 20}} <br><a href="{{site.baseurl}}/{{post.url}}"><button class="btn-primary btn btn-xs">lire plus</button></a>
+          {{post.extrait | truncatewords: 20}} <br><a href="{{site.baseurl}}{{post.url}}"><button class="btn-primary btn btn-xs">lire plus</button></a>
 
         </p>
         </div>
